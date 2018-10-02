@@ -1,6 +1,5 @@
 # ui-navbar - Responsive navigation bar with submenu in AngularJS
 
-![Bower](https://img.shields.io/bower/v/ui-navbar.svg)
 [![NPM](https://img.shields.io/npm/v/ui-navbar.svg)](https://www.npmjs.com/package/ui-navbar)
 [![Build Status](https://travis-ci.org/blackat/ui-navbar.svg?branch=master)](https://travis-ci.org/blackat/ui-navbar)
 [![Dependency Status](https://david-dm.org/blackat/ui-navbar/status.svg?branch=master)](https://david-dm.org/blackat/ui-navbar#info=dependencies)
