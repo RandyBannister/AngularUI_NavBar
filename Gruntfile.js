@@ -1,11 +1,9 @@
 module.exports = function (grunt) {
-
     // Load grunt tasks automatically
     require('load-grunt-tasks')(grunt);
 
     // Time how long tasks take. Can help when optimizing build times
     require('time-grunt')(grunt);
-
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
 
@@ -21,7 +19,6 @@ module.exports = function (grunt) {
                 }
             }
         },
-
         karma: {
             unit: {
                 configFile: 'karma.conf.js'
@@ -98,7 +95,7 @@ module.exports = function (grunt) {
         html2js: {
             release: {
                 options: {
-                    module: null, // no bundle for all the templates
+                    module: null,
                     base: '.'
                 },
                 files: [{
